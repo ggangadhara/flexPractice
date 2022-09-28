@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-.container{
+/* layout 01 .container{
     width : 100%;
     height: 300px;
     border: 2px solid red;
@@ -13,4 +13,57 @@
     width: 100px;
     height: 100px;
     border: 2px solid black;
+} */
+/* .box{
+    width: 100px;
+    height: 100px;
+    border: 3px solid lightgrey;
+}
+.small-box{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+.container{
+    border: 4px solid lightgrey;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+
+}
+.box-wrapper{
+    display: flex;
+    align-items: center;
+} */
+
+.container{
+    border: 2px solid grey;
+    padding: 24px 24px 0 24px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.row { 
+width: 100%;
+max-width: 600px;
+ margin: 0 auto;
+
+}
+.title{
+    width:100%;
+    height: 24px;
+    border: 2px solid lightgrey;
+    margin-bottom: 20px;
+}
+.box{
+    width : 30%;
+    height: 100px;
+    border: 2px solid lightgray;
+    margin-bottom: 10px;
+}
+.box-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
